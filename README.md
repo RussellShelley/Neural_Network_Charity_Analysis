@@ -51,9 +51,18 @@ We will train and test the neural network on data provided in a CSV which contai
 
 - Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    - For my model I decided to start with two hidden layers. The number of neurons in the first hidden layer should be less than the inputs and more than the output. I decided to use 8 in the first layer, and 5 in the second. We have just one output.
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+    - For my model I decided to start with two hidden layers. 
+    - The number of neurons in the first hidden layer should be less than the inputs and more than the output. I decided to use 8 in the first layer, and 5 in the second. We have just one output.
+    - The activation function I decided to use on my hidden layers is "reLu", Rectified Linear Unit. It is used a lot and seems to be the default activation function for neural networks. 
+    - I used a "sigmoid" activation function on my output layer.  Sigmoid works well for binary output.
+    - The model ran for 100 epochs.
+
+
+- Were we able to achieve the target model performance?
+    - This model achieved  **73% accuracy**. Not the 75 % we were hoping for!
+
+- Increasing model performance
+    - 
 
 
 
