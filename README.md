@@ -6,7 +6,7 @@
 ## Overview
 
 
-We are creating a neural network that will act as a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+We are creating a neural network, with Tensor flow, that will act as a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 We will train and test the neural network on data provided in a CSV which contains information on more than 34,000 organizations that have received funding from Alphabet Soup over the years. This data will be preprocessed, eliminating useless variables, encoding categorical data, and scaling values. We will adjust our model to see if we can raise our models accuracy above 75%.
 
 ## Resources
